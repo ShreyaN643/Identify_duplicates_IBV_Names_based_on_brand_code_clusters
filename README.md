@@ -47,7 +47,7 @@ python main.py
 
 ### 3. Workflow
 1.  **Select File:** Choose your source CSV or Excel file.
-2.  **Configure:** * Select the **Target Column** (the text you want to clean).
+2.  **Configure:**  Select the **Target Column** (the text you want to clean).
     * Select the **Traceback Column** (the ID or Brand used for clustering).
     * (Optional) Apply an **Alphabet Filter** (e.g., `A-D`) to process a specific subset.
 3.  **Review:** Check the `Intra_Cluster_Analysis.csv` for results and `Sweetviz_Report.html` for data insights.
