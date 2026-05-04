@@ -4,7 +4,7 @@ A specialized data cleaning framework designed for high-precision entity resolut
 
 ## 🧩 The Two-Step Logic
 1.  **Step 1: Parent Clustering:** We need to first perform fuzzy matching using Brand Name and Brand Code.
-2.  **Step 2: Intra-Cluster Resolution:**We need to copy the Traceback(Brand_Code) column and paste it in the IBV Extract. We need to use that extract to in the modified fuzzy matching script which is executed *exclusively within each cluster*. This identifies precise variations (typos, formatting shifts) among similar groups while ensuring that names from different clusters never accidentally merge.
+2.  **Step 2: Intra-Cluster Resolution:** We need to copy the Traceback(Brand_Code) column and paste it in the IBV Extract. We need to use that extract to in the modified fuzzy matching script which is executed *exclusively within each cluster*. This identifies precise variations (typos, formatting shifts) among similar groups while ensuring that names from different clusters never accidentally merge.
 
 ---
 
